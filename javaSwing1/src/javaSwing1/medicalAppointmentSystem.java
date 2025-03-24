@@ -178,7 +178,7 @@ public class medicalAppointmentSystem extends JFrame {
 		contentPane.add(submitBtn);
 
 		JLabel heartIcon = new JLabel("");
-		Image img1 = new ImageIcon(this.getClass().getResource("/smallheart.png")).getImage();
+		Image img1 = new ImageIcon("/heartbeat.png").getImage();
 		heartIcon.setIcon(new ImageIcon(img1));
 		heartIcon.setBounds(182, 77, 16, 29);
 		contentPane.add(heartIcon);
